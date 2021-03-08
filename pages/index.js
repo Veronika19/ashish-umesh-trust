@@ -34,6 +34,10 @@ export default function Home() {
 
   return (
     <div id="main">
+      <Head>
+        <title>Umesh Help Trust</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="breadcrumb-section">
         <div className="container">
           <div className="row">
@@ -51,7 +55,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="content-wrapper" id="page-info">
         <div className="container">
           <section className="our-story row">

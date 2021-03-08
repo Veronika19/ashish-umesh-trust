@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>About Help Trust</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
