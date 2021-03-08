@@ -816,7 +816,7 @@ blockquote footer:before,
   position: fixed;
 }
 .primary-header {
-  padding: 18px 0 11px;
+  padding: 18px 0 0px;
 }
 .brand {
   margin-top: 6px;
@@ -1057,6 +1057,11 @@ a.brand img {
   top: 0;
   opacity: 1;
   visibility: visible;
+}
+
+#header img.logo {
+  max-width: none;
+  height: auto;
 }
 /*
  4.2) Header Second Style

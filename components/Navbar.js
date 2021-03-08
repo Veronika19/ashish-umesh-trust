@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="row primary-header">
           <Link href="/">
             <a className="col-xs-12 col-sm-2 brand" title="Welcome to Charity">
-              <img src="img/logo.png" alt="Charity" />
+              <img className="logo" src="umesh-help-trust.png" alt="Charity" />
             </a>
           </Link>
           <div className="social-links col-xs-12 col-sm-10">
@@ -70,26 +70,9 @@ const Navbar = () => {
             <nav>
               <ul className="nav navbar-nav">
                 <li className="active">
-                  <a href="#!" data-toggle="dropdown" className="submenu-icon">
-                    Home
-                    <span className="glyphicon glyphicon-chevron-down"></span>{' '}
-                    <span className="glyphicon glyphicon-chevron-up"></span>{' '}
-                  </a>
-                  <div className="dropdown-menu">
-                    <ul>
-                      <li>
-                        <Link href="/">
-                          <a>Index-1</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <a href="index2.html">Index-2</a>
-                      </li>
-                      <li>
-                        <a href="index3.html">Index-3</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <Link href="/">
+                    <a>Home</a>
+                  </Link>
                 </li>
 
                 <li>

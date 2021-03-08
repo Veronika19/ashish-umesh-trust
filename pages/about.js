@@ -10,12 +10,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
+        <h1 className={styles.title}>Welcome to Umesh Help trust</h1>
       </main>
     </div>
   );
