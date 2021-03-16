@@ -69,9 +69,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <nav>
               <ul className="nav navbar-nav">
-                <li className="active">
+                <li>
                   <Link href="/">
                     <a>Home</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/home">
+                    <a>Home 1</a>
                   </Link>
                 </li>
 
