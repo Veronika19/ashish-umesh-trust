@@ -58,7 +58,7 @@ export default function Home() {
             <div className="col-xs-12">
               <header className="story-heading section-header">
                 <h2>
-                  हम कौन हैं ?&nbsp;&nbsp;<strong>एक सामाजिक संस्था</strong>
+                  Who we are? <strong>Read our Story</strong>
                 </h2>
               </header>
               <div className="row">
@@ -76,15 +76,20 @@ export default function Home() {
                 </div>
                 <div className="col-xs-12 col-sm-7">
                   <strong className="article-sammury">
-                    दान एक व्यापक मंच है, जहाँ दुनिया के किसी भी हिस्से से कोई भी व्यक्ति जीवन स्तर
-                    को बढ़ाने के लिए भाग्य के छोटे हिस्से को दान कर सकता है और साथ ही वंचित गरीब
-                    लोगों और बच्चों की अन्य सभी बुनियादी जरूरतों को पूरा कर सकता है।
+                    Charity is an extensive platform, where anyone from any part of the world can
+                    donate the little part of the fortune to enhance living standard and education
+                    system as well as fulfill all other basic needs of deprived African children.
                   </strong>
-                  <p className="article-sammury">
-                    हम अपने लिए फंड नहीं जुटाते। वास्तव में, हम उन सभी निधियों का उपयोग करते हैं, जो
-                    समग्र विकास के मामले में सबसे अच्छे तरीके से दान के माध्यम से आते हैं सभी आयु
-                    वर्ग के बच्चे। हमारी टीम दिन-रात काम कर रही है ताकि यह सुनिश्चित हो सके कि हमारे
-                    फंड डोनर को कोई परेशानी न हो।
+                  <p>
+                    We do not raise fund for ourselves. Indeed, we use all the funds that come
+                    through charity in the best of the best way in terms of holistic development of
+                    children of all age groups. Our team is relentlessly working day and night to
+                    ensure that there will no hassle for our fund donor.
+                  </p>
+                  <p>
+                    We work for children welfare, who are daily exploited and living in the
+                    condition deprived of healthy environment, proper eduction, food, cloth and
+                    medical care.
                   </p>
                 </div>
               </div>
@@ -95,54 +100,101 @@ export default function Home() {
             <div className="col-xs-12">
               <header className="work-block-heading section-header">
                 <h2>
-                  <strong>
-                    मात्र 100/- रुपये सहयोग देकर प्रत्येक बुधवार को बाल एवं दाढ़ी मुफ्त में बनवायें
-                    ।
-                  </strong>
+                  What we do? <strong>See Our Works</strong>
                 </h2>
-                <h3 className="message">
-                  आपके सहयोग से जरूरतमंदो को निम्नलिखित सेवायें प्रदान किया जायेगा
-                </h3>
               </header>
-              <div className="row services  text-center">
-                <div className="col-xs-12 col-sm-6 zoom">
-                  <img src="/img/icon-service-06.png" alt="Umesh help trust provides Clothing" />
-                  <h3 className="h3">Clothing</h3>
-                  <p>
-                    जो व्यक्ति गाड़ी चलाते समय एक वर्ष में कम से कम 300 दिनों तक हेलमेट पहनता है तो
-                    उसे संस्था के द्वारा 12 सेट कपड़ा देकर सम्मानित किया जायेगा।
-                  </p>
+              <div className="row">
+                <div className="col-xs-12 col-sm-6 col-md-3">
+                  <div className="thumbnail zoom">
+                    <h3>Personal Funds</h3>
+                    <a href="blog-full-width.html" className="img-thumb">
+                      <figure>
+                        <img src="img/img-slide-01.jpg" alt="" />
+                      </figure>
+                    </a>
+                    <p>
+                      We support to you raise fund for charity causes that can be used to improve
+                      the quality of African children, who are living in the worst condition.
+                    </p>
+                    <p>
+                      <a
+                        href="blog-full-width.html"
+                        className="btn btn-default btn-sm"
+                        role="button"
+                      >
+                        READ MORE
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="col-xs-12 col-sm-6 zoom ">
-                  <img
-                    src="/img/icon-service-02.png"
-                    alt="Umesh help trust provides Education Support"
-                  />
-                  <h3 className="h3">Education Support</h3>
-                  <p>
-                    उमेश हेल्प ट्रस्ट गरीब छात्रों के लिए मुफ्त में अंग्रेजी बोली जाने वाली कक्षाओं
-                    को सीखने का अवसर प्रदान करता है
-                  </p>
+                <div className="col-xs-12 col-sm-6 col-md-3">
+                  <div className="thumbnail zoom">
+                    <h3>Creative Events</h3>
+                    <a href="blog-full-width.html" className="img-thumb">
+                      <figure>
+                        <img src="img/img-slide-02.jpg" alt="" />
+                      </figure>
+                    </a>
+                    <p>
+                      Charity organizes different event to raise money for children’s welfare. We
+                      have generated around 80% of the resource through different events.
+                    </p>
+                    <p>
+                      <a
+                        href="blog-full-width.html"
+                        className="btn btn-default btn-sm"
+                        role="button"
+                      >
+                        READ MORE
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="col-xs-12 col-sm-6 anim-section zoom">
-                  <img
-                    src="/img/icon-service-03.png"
-                    alt="Umesh help trust provides Health and Enviroment"
-                  />
-                  <h3 className="h3">Health and Enviroment</h3>
-                  <p>
-                    संस्था के द्वारा फलदार वृक्ष लगाकर उसकी देख भाल करने वाले व्यक्ति को संस्था की
-                    ओर से एक मुफ्त मेडिकल कार्ड दिया जायेगा जिसमें 5 वर्षों तक किसी भी तरह का बिमारी
-                    इलाज मुफ्त किया जायेगा।
-                  </p>
+                <div className="col-xs-12 col-sm-6 col-md-3">
+                  <div className="thumbnail zoom">
+                    <h3>Sponsorships</h3>
+                    <a href="blog-full-width.html" className="img-thumb">
+                      <figure>
+                        <img src="img/img-slide-05.jpg" alt="" />
+                      </figure>
+                    </a>
+                    <p>
+                      Our sponsorships program has not only helped us achieve mission, but also
+                      helped sponsor boost their businesses.
+                    </p>
+                    <p>
+                      <a
+                        href="blog-full-width.html"
+                        className="btn btn-default btn-sm"
+                        role="button"
+                      >
+                        READ MORE
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="col-xs-12 col-sm-6 anim-section zoom">
-                  <img
-                    src="/img/icon-service-04.png"
-                    alt="Umesh help trust helps in Erasing Malnutrition"
-                  />
-                  <h3 className="h3">Erasing Malnutrition</h3>
-                  <p>सिर्फ एक कॉल पर रात्रि भोजन की व्ययवस्था मुफ्त में दिया जायेगा ।</p>
+                <div className="col-xs-12 col-sm-6 col-md-3">
+                  <div className="thumbnail">
+                    <h3>Investors</h3>
+                    <a href="blog-full-width.html" className="img-thumb">
+                      <figure>
+                        <img src="img/img-slide-03.jpg" alt="" />
+                      </figure>
+                    </a>
+                    <p>
+                      Join us? Be a part of our family of investors, whose contribution have
+                      propelled us to reach to the envisioned goal without any problem.
+                    </p>
+                    <p>
+                      <a
+                        href="blog-full-width.html"
+                        className="btn btn-default btn-sm"
+                        role="button"
+                      >
+                        READ MORE
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -153,14 +205,18 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-7 col-md-5">
-                <h2 className="h1" style={{ lineHeight: 1.2 }}>
-                  हम झारखंड में बच्चों की &nbsp;
-                  <strong className="border-none">मदद करते हैं</strong>
+                <h2 className="h1">
+                  Helping child in <strong className="border-none">Africa</strong>
                 </h2>
-                <p>आप बच्चों के लिए मुस्कुराहट लाने के लिए बस कुछ ही क्लिक दूर हैं। </p>
-                <Link href="/trust-donation-jharkhand">
-                  <a className="btn btn-theme">Donate now</a>
-                </Link>
+                <p>You are Just A Few Clicks Away To Bring Smile To Children. </p>
+                <a
+                  data-toggle="modal"
+                  href="external.html"
+                  data-target=".donate-form"
+                  className="btn btn-theme"
+                >
+                  Donate now
+                </a>
               </div>
             </div>
           </div>
@@ -171,7 +227,7 @@ export default function Home() {
             <div className="col-xs-12">
               <header className="team-info section-header">
                 <h2>
-                  उमेश हेल्प ट्रस्ट. <strong className="border-none">हमारी टीम के सदस्य</strong>
+                  We are Real. <strong className="border-none">Meet the Team</strong>
                 </h2>
               </header>
               <div className="row">

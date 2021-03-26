@@ -12,8 +12,8 @@ const Navbar = () => {
       <div className="container">
         <div className="row primary-header">
           <Link href="/">
-            <a className="col-xs-12 col-sm-2 brand" title="Welcome to Charity">
-              <img className="logo" src="umesh-help-trust.png" alt="Charity" />
+            <a className="col-xs-12 col-sm-2 brand" title="Welcome to Umesh help trust">
+              <img className="logo" src="umesh-help-trust.png" alt="Umesh help trust" />
             </a>
           </Link>
           <div className="social-links col-xs-12 col-sm-10">
@@ -75,8 +75,8 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/home">
-                    <a>Home 1</a>
+                  <Link href="/about-us">
+                    <a>About Us</a>
                   </Link>
                 </li>
 
@@ -183,7 +183,7 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li>
-                  <Link href="/about">
+                  <Link href="/contact-us">
                     <a>contact us</a>
                   </Link>
                 </li>
