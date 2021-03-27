@@ -142,7 +142,15 @@ export default function Home() {
                     alt="Umesh help trust helps in Erasing Malnutrition"
                   />
                   <h3 className="h3">Erasing Malnutrition</h3>
-                  <p>सिर्फ एक कॉल पर रात्रि भोजन की व्ययवस्था मुफ्त में दिया जायेगा ।</p>
+                  <p>
+                    सिर्फ एक कॉल पर रात्रि भोजन की व्ययवस्था मुफ्त में दिया जायेगा । <br />
+                    मो0 : 8409026364
+                  </p>
+                </div>
+                <div className="col-xs-12 col-sm-12 anim-section zoom">
+                  <img src="/img/icon-service-01.png" alt="Umesh help trust provides Clothing" />
+                  <h3 className="h3">Marriage</h3>
+                  <p>संस्था के द्वारा लड़की की शादी पर 50 किलो चावल दिया जायेगा ।</p>
                 </div>
               </div>
             </div>

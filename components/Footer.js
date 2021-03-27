@@ -21,7 +21,7 @@ const Footer = () => {
                 <span itemProp="addressLocality">गोविन्दपुर, पो० : बोकारो थर्मल</span>, India
               </span>
               <span>
-                <i className="fa fa-phone-square"></i>{' '}
+                <i className="fa fa-phone-square"></i>
                 <span itemProp="telephone">+91-8409026364</span>
               </span>
             </address>
@@ -32,17 +32,16 @@ const Footer = () => {
               <a href="#">
                 <span className="charity">@charity</span> We are a charity trust that dedicatedly
                 work for several countries around the globe. Twitter Alerts will provide your some
-                critical information about those people that need help of yours.{' '}
-                <span className="comment-time">2 hours ago</span>{' '}
+                critical information about those people that need help of yours.
+                <span className="comment-time">2 hours ago</span>
               </a>
             </p>
             <p>
               <a href="#">
-                {' '}
                 <span className="charity">@charity</span> Use Twitter as the best conversation
                 platform to make the people aware of the worst situation that many of Africans are
-                facing. Tweet for them and raise fund in the best possible way.{' '}
-                <span className="comment-time">2 hours ago</span>{' '}
+                facing. Tweet for them and raise fund in the best possible way.
+                <span className="comment-time">2 hours ago</span>
               </a>
             </p>
           </div>

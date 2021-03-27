@@ -127,18 +127,6 @@
 .rev_slider_wrapper .tparrows {
   z-index: 9999;
 }
-/*revolution slider style*/
-.tp-bullets.simplebullets.round .bullet {
-  background: none;
-  width: 12px;
-  height: 12px;
-  margin: 0 4px;
-  border-radius: 50%;
-}
-
-.tp-bullets.hidebullets {
-  opacity: 1;
-}
 
 /*
  1.2)Our Causes Section
@@ -2048,7 +2036,8 @@ aside ul.archives li span {
   min-height: 255px;
 }
 
-.services .col-sm-6 p {
+.services .col-sm-6 p,
+.services .col-sm-12 p {
   font-size: 18px;
 }
 
